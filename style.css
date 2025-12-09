@@ -1,0 +1,203 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 20px;       /* More padding for better look */
+    color: white;
+    position: relative;       /* Needed if using pseudo-elements */
+    
+    /* Background image */
+    background: url('backH.jpg') center / cover no-repeat;
+    
+    /* Optional: overlay to darken image for text readability */
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+}
+
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 50px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* BASE section */
+.base {
+    background: url('C:/New folder/Image/paper.jpg') center / cover no-repeat; /* relative path */
+    height: 550px;
+	padding: 50px 0;
+    padding-left: 50px;
+    font-size: 2rem;
+    color: white;
+    -webkit-text-stroke: .5px black;   /* stroke width + color (Chrome/Safari) */
+	font-weight: bold;
+	font-family: "Arial";
+
+
+}
+.info-box {
+	
+    background: rgba(0, 0, 0, 0.5); /* dark + transparent */
+    padding: 1px 11px;
+    border-radius: 8px;
+    width: fit-content;
+
+    color: white;                  /* text color */
+    font-size: 25px;
+    line-height: 5.5;
+
+    backdrop-filter: blur(2px);    /* optional: frosted effect */
+	box-shadow: 0 4px 12px rgba(0,0,0,0.8);
+	
+	  flex: 1;
+	line-height: 1.6;
+	padding: 10px;
+}
+
+
+
+
+.container {
+  display: flex;
+  gap: 50px;
+  align-items: stretch; /* Makes both sides stretch to same height */
+  margin-right: 50px;
+}
+
+.container p, .info-box {
+  font-size: 25px; /* or another value */
+}
+
+.slideshow-container {
+  flex: 1;
+  max-width: 500px;
+  height: 300px;        /* Let it adjust dynamically */
+  min-height: 300px;   /* Optional: minimum height */
+  position: relative;
+  overflow: hidden;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* Fill container without distortion */
+  display: block;
+}
+
+/* Fade animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: 0.4;}
+  to {opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+.fb-logo img {
+	position: relative;
+    top: 45px;
+    width: 50px;       /* size of the logo */
+    height: auto;
+    cursor: pointer;
+
+}
+
+.base #button2 {
+    position: relative;
+    top: 30px;
+	margin-left: 30px;
+    padding: 10px 38px;
+    font-size: 1rem;
+    color: #fff;                  /* button text color */
+    background: linear-gradient(#85600F, #8A612C, #706655);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    -webkit-text-stroke: 0;       /* remove stroke */
+	text-decoration: none;	
+}
+
+.base #button3 {
+    position: relative;
+    top: 30px;
+	margin-left: 30px;
+    padding: 10px 38px;
+    font-size: 1rem;
+    color: #fff;                  /* button text color */
+    background: linear-gradient(#10C212, #3E8C4E, #95BDA1);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    -webkit-text-stroke: 0;       /* remove stroke */
+	text-decoration: none;	
+}
+
+
+
+
+
+
+
+
+/* Content cards */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+	color: white;
+}
+
+.card {
+    background-color: #2D2D30;
+    padding: 20px;
+    width: 700px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}

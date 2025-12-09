@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markensten Note Balderama</title>
+    <link rel="stylesheet" href="Experiencestyle.css">
+</head>
+<body>
+
+<header>
+    <h1>Markensten Note Balderama</h1>
+    <p>I am a passionate person and love to meet new people.</p>
+    <p>I love traveling, experiencing new things, and trying something different.</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="Experience.html">Experience</a>
+    <a href="Knowledge.html">Knowledge</a>
+    <a href="Education.html">Education</a>
+    <a href="Training.html">Seminars & Training</a>
+</nav>
+
+
+
+<section class="base" id="Experience">
+
+ <h2 id="Head">E X P E R I E N C E :</h2>
+
+ <div class="Column">
+ 
+    <div class="Company">
+	<h4>SUPERVALUE, INC.</h4>
+	
+      <p>
+	  IT Assistant<br>
+      Metro Manila, Philippines<br>
+      March 08, 2023 - October 10, 2025<br>
+	  <a href="https://www.google.com/maps/place/SM+Retail+Headquarters/@14.5408628,120.9844157,17.08z/data=!4m6!3m5!1s0x3397cb9d764d8619:0x4f0d028fb57ab61a!8m2!3d14.5405355!4d120.9838132!16s%2Fg%2F11p5j6lwpb?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D" id="button1" class="btn">Location</a>
+	  </p>
+	  
+    </div>
+
+	</div>
+
+
+	 <div class="Column2">
+	<div class="Responsibilities">
+		<h2>DUTIES & RESPONSIBILITIES</h2>
+		<li>Data Mining</li>
+		<li>Data Analyst</li>
+		<li>Setup a computer</li>
+		<li>Deploying Project</li>
+		<li>Creating and completion report</li>
+		<li>Backup and Restoring database Using SQL</li>
+		<li>Assisting for data recovery or missing dat</li>
+		<li>configuration of package for project deployment of new application</li>
+    </div>
+</div>
+
+
+
+<div class="slider">
+	<img src="HeadOffice.jpg" alt="Image 1">
+    <img src="Lobby.Webp" alt="Image 2">
+	<img src="Logo.Webp" alt="Image 2">
+ 
+</div>
+
+
+<script>
+let slides = document.querySelectorAll('.slider img');
+let current = 0;
+
+function showSlide(index) {
+    slides.forEach((img, i) => {
+        img.style.display = i === index ? 'block' : 'none';
+    });
+}
+
+function nextSlide() {
+    current = (current + 1) % slides.length;
+    showSlide(current);
+}
+
+// Slide every 3 seconds
+setInterval(nextSlide, 3000);
+</script>
+
+
+
+
+
+
+</section>
+
+
+
+
+<section class="content">
+    <div class="card" id="about">
+        <h2>About This Site</h2>
+		<br>
+        <p>This is a simple example website built with HTML, CSS, and a little JavaScript for interactivity.</p>
+    </div>
+
+    <div class="card" id="About">
+        <h2>Resume</h2>
+		<br>
+        <ul>
+			<p>This website is about me, my experience, and my skills.
+			It will serve as my online résumé.
+			If you'd like it to sound more professional or more casual,
+			I can rewrite it in different styles too!</p>
+           
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; DECLARATION</p>
+    <p>I hereby declare that the above information is true and correct to the best of my knowledge and belief.</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+<!-- JavaScript -->
+<!-- <script>
+    // Show alert on page load
+    window.onload = function() {
+        alert("Welcome to Markensten's website!");
+    }
+
+    // Change hero text on button click
+    const button = document.getElementById("change-text");
+    const heroText = document.getElementById("hero-text");
+
+    button.addEventListener("click", function() {
+        heroText.innerHTML = "Hello! Your information is displayed here dynamically.";
+    });
+</script> -->
+
+
+</body>
+</html>	

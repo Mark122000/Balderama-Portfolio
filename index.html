@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markensten Note Balderama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Markensten Note Balderama</h1>
+    <p>I am a passionate person and love to meet new people.</p>
+    <p>I love traveling, experiencing new things, and trying something different.</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="Experience.html">Experience</a>
+    <a href="Knowledge.html">Knowledge</a>
+    <a href="Education.html">Education</a>
+    <a href="Training.html">Seminars & Training</a>
+</nav>
+
+
+
+
+
+
+
+
+
+<section class="base" id="home">
+  <div class="container">
+    <div class="info-box">
+      <p>
+	  Nationality: Filipino<br>
+      Visa Status: Tourist Visa (Ex. January 20, 2026)<br>
+      Permanent Address: Al Nahda, Sharjah, United Arab Emirates<br>
+      Phone Number: +971589791859<br>
+      Email: merkenstenbalderama@gmail.com<br>
+      Birth: August 08, 2000<br>
+	  </p>
+    </div>
+	 
+
+	
+    <div class="slideshow-container">
+      <div class="slide fade">
+        <img src="front.jpg" alt="Image 1">
+      </div>
+      <div class="slide fade">
+        <img src="backH.jpg" alt="Image 2">
+      </div>
+      <div class="slide fade">
+        <img src="office.jpg" alt="Image 3">
+      </div>
+	  <div class="slide fade">
+        <img src="Hobby.jpg" alt="Image 3">
+      </div>
+    </div>
+ </div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let slides = document.getElementsByClassName("slide");
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) slideIndex = 1;
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+
+	<a href="https://www.facebook.com/markensten.balderama" id="button1" class="fb-logo" target="_blank">
+    <img src="facebook.png" alt="Facebook"></a>
+	
+  <a href="mailto:markenstenbalderama@email.com" id="button2" class="btn">Email</a>
+  <a href="https://wa.me/+971589791859" id="button3" class = "btn">Message Me on WhatsApp</button>
+</a>
+
+</section>
+
+
+
+<section class="content">
+    <div class="card" id="about">
+        <h2>About This Site</h2>
+		<br>
+        <p>This is a simple example website built with HTML, CSS, and a little JavaScript for interactivity.</p>
+    </div>
+
+    <div class="card" id="About">
+        <h2>Resume</h2>
+		<br>
+        <ul>
+			<p>This website is about me, my experience, and my skills.
+			It will serve as my online résumé.
+			If you'd like it to sound more professional or more casual,
+			I can rewrite it in different styles too!</p>
+           
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; DECLARATION</p>
+    <p>I hereby declare that the above information is true and correct to the best of my knowledge and belief.</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+<!-- JavaScript -->
+<!-- <script>
+    // Show alert on page load
+    window.onload = function() {
+        alert("Welcome to Markensten's website!");
+    }
+
+    // Change hero text on button click
+    const button = document.getElementById("change-text");
+    const heroText = document.getElementById("hero-text");
+
+    button.addEventListener("click", function() {
+        heroText.innerHTML = "Hello! Your information is displayed here dynamically.";
+    });
+</script> -->
+
+
+</body>
+</html>
