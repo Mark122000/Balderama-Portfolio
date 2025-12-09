@@ -155,7 +155,7 @@ nav a:hover {
 .slider {
 	
 	max-width: 500px;
-	height: auto;        /* Let it adjust dynamically */
+	height: 375px;        /* Let it adjust dynamically */
 	
     width: 500px;         /* width of the slider */
 	min-height: 300px; 
@@ -171,7 +171,6 @@ nav a:hover {
 
 .slider img {
     width: 100%;  /* fit the container width */
-	height: auto;
     display: none;        /* hide all images initially */
 }
 
@@ -222,6 +221,7 @@ footer {
     color: white;
 
 }
+
 
 
 
