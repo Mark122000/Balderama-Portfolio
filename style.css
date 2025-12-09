@@ -89,7 +89,7 @@ nav a:hover {
 .slideshow-container {
   flex: 1;
   max-width: 500px;
-  height: auto;        /* Let it adjust dynamically */
+  height: 375px;        /* Let it adjust dynamically */
   min-height: 300px;   /* Optional: minimum height */
   position: relative;
   overflow: hidden;
@@ -202,4 +202,5 @@ footer {
     color: white;
 
 }
+
 
