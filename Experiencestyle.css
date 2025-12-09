@@ -39,12 +39,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* BASE section */
-
-
-
-
-
 .base {
     background: url('paper.jpg') center / cover no-repeat; /* relative path */
     height: 550px;
@@ -227,4 +221,5 @@ footer {
     color: white;
 
 }
+
 
